@@ -1,0 +1,6 @@
+@undertale_api_HostAddress = http://localhost:5289
+
+GET {{undertale_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
