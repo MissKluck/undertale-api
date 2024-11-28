@@ -22,11 +22,24 @@ public class _CharactersController : ControllerBase
         }
     }
 
-
     // create the GET endpoint
     [HttpGet]
     public Action<IEnumerable<Characters>> GetCharacters()
     {
         return _context.Characters();
     }
+
+    // create the POST endpoint
+    [HttpPost]
+    public IActionResult Post([FromBody] Characters _characters)
+    {
+        if (characters == null)
+        {
+            return BadRequest("Client error occured!");
+        }
+        _context.Add(_characters);
+        _context.SaveChanges();
+        return CreatedAtAction(nameof(Post), new { id = _characters.Id, stage = _characters.Stage, name = _characters.Name, hp = _characters.HP, type = _characters.Type, info = _characters.Info, abilityone = _characters.AbilityOne, abilitytwo = _characters.AbilityTwo, damageone = _characters.DamageOne, damagetwo = _characters.DamageTwo, weak = _characters.Weak, resistance = _characters.Resistance, extrainfo = _characters.ExtraInfo, retreat = _characters.Retreat }, _characters);
+    }
+
 }
