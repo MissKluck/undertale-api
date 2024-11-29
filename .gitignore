@@ -484,3 +484,4 @@ $RECYCLE.BIN/
 *.swp
 
 /undertale-api.sln
+/undertale-api.csproj
