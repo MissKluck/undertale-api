@@ -24,9 +24,9 @@ public class _CharactersController : ControllerBase
 
     // create the GET endpoint
     [HttpGet]
-    public Action<IEnumerable<Characters>> GetCharacters()
+    public IEnumerable<Characters> GetCharacters()
     {
-        return _context.Characters();
+        return _context.Characters.ToList();
     }
 
     // create the POST endpoint
