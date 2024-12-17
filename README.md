@@ -9,4 +9,4 @@ Need to to do:
 - create the randomness logic for when the card switches
 - set up for logic to run through the card
 
-[Link] (https://excalidraw.com/#json=8Yb5BIzywFxsbgvfboNQN,FQ8qNUy-azzSUd8a5TQJjA)
+![Image] (undertale-api/image.png)
