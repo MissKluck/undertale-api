@@ -9,4 +9,4 @@ Need to to do:
 - create the randomness logic for when the card switches
 - set up for logic to run through the card
 
-![excalidraw image of how the cars are imagined](/Users/Sigrid/Documents/C#/undertale-api/images/image.png)
+![excalidraw image of how the cars are imagined](/../undertale-api/images/image.png)
