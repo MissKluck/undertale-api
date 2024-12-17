@@ -11,7 +11,11 @@ public class _CharactersController : ControllerBase
     private static List<Characters> characters = new List<Characters> {
         new Characters {Id = 1, Stage = "Pacifist", Name = "Frisk", HP = 20, LV = "LV 1", AT = 0, DF = 0, EXP = 0, Type = "Normal", Info = "A human child who has fallen down into the undeground.", AbilityOne = "TALK", AbilityTwo = "SPARE", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
         new Characters {Id = 2, Stage = "Pacifist", Name = "sans.", HP = 1, AT = 1, DF = 1, Type = "Psychic", Info = "The easiest enemy. Can only deal 1 damage", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
-        new Characters {Id = 3, Stage ="Pacifist", Name = "Papyrus", HP = 680, AT = 20, DF = 20, EXP =, Type = "", Info = "He likes to say: 'Nyeh heh heh!'", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id = 3, Stage ="Pacifist", Name = "Papyrus", HP = 680, AT = 20, DF = 20, EXP =, Type = "", Info = "He likes to say: 'Nyeh heh heh!'", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "Flirting", Resistance = "", ExtraInfo = "Loves spaghetti", Retreat = "" },
+        new Characters {Id =, Stage ="", Name = "", HP =, AT =, DF =, EXP =, Type = "", Info = "", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id =, Stage ="", Name = "", HP =, AT =, DF =, EXP =, Type = "", Info = "", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id =, Stage ="", Name = "", HP =, AT =, DF =, EXP =, Type = "", Info = "", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id =, Stage ="", Name = "", HP =, AT =, DF =, EXP =, Type = "", Info = "", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
         new Characters {Id =, Stage ="", Name = "", HP =, AT =, DF =, EXP =, Type = "", Info = "", AbilityOne = "", AbilityTwo = "", DamageOne =, DamageTwo =, Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
     };
 
