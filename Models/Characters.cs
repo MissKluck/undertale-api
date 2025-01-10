@@ -10,8 +10,12 @@ public class Characters
     public int EXP { get; set; }
     public required string Type { get; set; }
     public required string Info { get; set; }
-    public required string AbilityOne { get; set; }
-    public required string AbilityTwo { get; set; }
+    public string? AbilityOne { get; set; }
+    public string? AbilityTwo { get; set; }
+    public string? AbilityThree { get; set; }
+    public string? AttackOne { get; set; }
+    public string? AttackTwo { get; set; }
+    public string? AttackThree { get; set; }
     public int DamageOne { get; set; }
     public int DamageTwo { get; set; }
     public required string Weak { get; set; }
