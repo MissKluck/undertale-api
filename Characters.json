@@ -1,21 +1,30 @@
 [
   {
-    "ID": "",
-    "Stage": "",
-    "Name": "",
-    "HP": "",
-    "LV": "",
-    "AT": "",
-    "DF": "",
-    "EXP": "",
-    "Type": "",
-    "Info": "",
-    "AbilityOne": "",
-    "AbilityTwo": "",
+    "ID": "1",
+    "Stage": "Pacifist",
+    "Name": "Frisk",
+    "HP": "20 HP",
+    "LV": "LV 1",
+    "AT": "AT 0",
+    "DF": "DF 0",
+    "EXP": "EXP 0",
+    "Type": "Normal",
+    "Info": "A human child who has fallen down into the underground.",
+    "Abilities": [
+      {
+        "Ability": {
+          "Name": "SAVE",
+          "Description": "HP fully restored. You're filled with DETERMINATION"
+        }
+      }
+    ],
+    "AbilityTwo": "TALK",
+    "AbilityThree": "SPARE",
     "DamageOne": "",
+    "DamageTwo": "",
     "Weak": "",
     "Resistance": "",
-    "ExtraInfo": "",
+    "ExtraInfo": "Encountering this card fills you with DETERMINATION.",
     "Retreat": ""
   },
   {
@@ -29,28 +38,23 @@
     "EXP": "",
     "Type": "",
     "Info": "",
-    "AbilityOne": "",
-    "AbilityTwo": "",
-    "DamageOne": "",
-    "Weak": "",
-    "Resistance": "",
-    "ExtraInfo": "",
-    "Retreat": ""
-  },
-  {
-    "ID": "",
-    "Stage": "",
-    "Name": "",
-    "HP": "",
-    "LV": "",
-    "AT": "",
-    "DF": "",
-    "EXP": "",
-    "Type": "",
-    "Info": "",
-    "AbilityOne": "",
-    "AbilityTwo": "",
-    "DamageOne": "",
+    "Abilities": [
+      {
+        "Ability": {
+          "Name": "",
+          "Description": ""
+        }
+      }
+    ],
+    "Attacks": [
+      {
+        "Attack": {
+          "Name": "",
+          "Description": "",
+          "Damage": ""
+        }
+      }
+    ],
     "Weak": "",
     "Resistance": "",
     "ExtraInfo": "",
