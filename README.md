@@ -15,5 +15,6 @@ Need to to do:
 - create/add all the monsters to a json document
 - create the randomness logic for when the card switches
 - set up for logic to run through the card
+- eirik had the idea to add affinity instead of weakness and resistance, so different monsters have different affinities to how you should act and more easily befriend them, like patting the greater dog
 
 ![excalidraw image of how the cards are imagined](images/image.png)
