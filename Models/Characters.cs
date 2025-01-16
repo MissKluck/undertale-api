@@ -12,7 +12,7 @@ public class Characters
     public required string Info { get; set; }
     public List<string> Abilities { get; set; }
     public List<string> Attacks { get; set; }
-    public required string Weak { get; set; }
+    public required string Affinity { get; set; }
     public required string Resistance { get; set; }
     public required string Retreat { get; set; }
     public required string ExtraInfo { get; set; }
