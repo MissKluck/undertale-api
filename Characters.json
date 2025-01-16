@@ -37,12 +37,12 @@
       },
       {
         "Ability": {
-          "Name": "TALK",
+          "Name": "DANCE",
           "Description": ""
         }
       }
     ],
-    "Weak": "",
+    "Affinity": "",
     "Resistance": "",
     "ExtraInfo": "Encountering this card fills you with DETERMINATION.",
     "Retreat": "FLEE"
@@ -75,7 +75,7 @@
         }
       }
     ],
-    "Weak": "",
+    "Affinity": "",
     "Resistance": "",
     "ExtraInfo": "",
     "Retreat": ""
@@ -108,7 +108,7 @@
         }
       }
     ],
-    "Weak": "",
+    "Affinity": "",
     "Resistance": "",
     "ExtraInfo": "",
     "Retreat": ""
@@ -147,7 +147,7 @@
         }
       }
     ],
-    "Weak": "",
+    "Affinity": "",
     "Resistance": "",
     "ExtraInfo": "",
     "Retreat": ""
@@ -180,7 +180,7 @@
         }
       }
     ],
-    "Weak": "",
+    "Affinity": "",
     "Resistance": "",
     "ExtraInfo": "",
     "Retreat": ""
