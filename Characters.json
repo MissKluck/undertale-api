@@ -14,17 +14,142 @@
       {
         "Ability": {
           "Name": "SAVE",
-          "Description": "HP fully restored. You're filled with DETERMINATION"
+          "Description": "HP fully restored. If a character was killed and acquires this ability, it immediately respawns. You're filled with DETERMINATION"
+        }
+      },
+      {
+        "Ability": {
+          "Name": "TALK",
+          "Description": ""
+        }
+      },
+      {
+        "Ability": {
+          "Name": "FLIRT",
+          "Description": ""
+        }
+      },
+      {
+        "Ability": {
+          "Name": "SPARE",
+          "Description": ""
+        }
+      },
+      {
+        "Ability": {
+          "Name": "TALK",
+          "Description": ""
         }
       }
     ],
-    "AbilityTwo": "TALK",
-    "AbilityThree": "SPARE",
-    "DamageOne": "",
-    "DamageTwo": "",
     "Weak": "",
     "Resistance": "",
     "ExtraInfo": "Encountering this card fills you with DETERMINATION.",
+    "Retreat": "FLEE"
+  },
+  {
+    "ID": "2",
+    "Stage": "Neutral",
+    "Name": "Frisk",
+    "HP": "",
+    "LV": "",
+    "AT": "",
+    "DF": "",
+    "EXP": "",
+    "Type": "",
+    "Info": "",
+    "Abilities": [
+      {
+        "Ability": {
+          "Name": "",
+          "Description": ""
+        }
+      }
+    ],
+    "Attacks": [
+      {
+        "Attack": {
+          "Name": "",
+          "Description": "",
+          "Damage": ""
+        }
+      }
+    ],
+    "Weak": "",
+    "Resistance": "",
+    "ExtraInfo": "",
+    "Retreat": ""
+  },
+  {
+    "ID": "3",
+    "Stage": "Genocide",
+    "Name": "Frisk",
+    "HP": "99 HP",
+    "LV": "LV 20",
+    "AT": "AT 38",
+    "DF": "DF 4",
+    "EXP": "120 EXP",
+    "Type": "",
+    "Info": "",
+    "Abilities": [
+      {
+        "Ability": {
+          "Name": "",
+          "Description": ""
+        }
+      }
+    ],
+    "Attacks": [
+      {
+        "Attack": {
+          "Name": "",
+          "Description": "",
+          "Damage": ""
+        }
+      }
+    ],
+    "Weak": "",
+    "Resistance": "",
+    "ExtraInfo": "",
+    "Retreat": ""
+  },
+  {
+    "ID": "4",
+    "Stage": "Genocide",
+    "Name": "Chara",
+    "HP": "",
+    "LV": "",
+    "AT": "",
+    "DF": "",
+    "EXP": "",
+    "Type": "",
+    "Info": "",
+    "Abilities": [
+      {
+        "Ability": {
+          "Name": "SOUL control",
+          "Description": ""
+        }
+      },
+      {
+        "Ability": {
+          "Name": "Destroy the world",
+          "Description": ""
+        }
+      }
+    ],
+    "Attacks": [
+      {
+        "Attack": {
+          "Name": "",
+          "Description": "",
+          "Damage": ""
+        }
+      }
+    ],
+    "Weak": "",
+    "Resistance": "",
+    "ExtraInfo": "",
     "Retreat": ""
   },
   {
