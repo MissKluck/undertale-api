@@ -9,8 +9,11 @@ public class _CharactersController : ControllerBase
     private readonly AppDbContext _context;
 
     private static List<Characters> characters = new List<Characters> {
+        //template
+         /*new Characters {Id = , Stage = "", Name = "", HP = , LV = , AT = , DF = , EXP = , Type = , Info = "", Abilities = "{}", Attacks = "{}", Affinity = "", Resistance = "", Retreat = "", ExtraInfo = ""},*/
         // Main Characters
-        new Characters {Id = 1, Stage = "Pacifist", Name = "Frisk", HP = 20, LV = "LV 1", AT = 0, DF = 0, EXP = 0, Type = "Normal", Info = "A human child who has fallen down into the undeground.", Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id = 1, Stage = "Pacifist", Name = "Frisk", HP = 20, LV = "LV 1", AT = 0, DF = 0, EXP = 0, Type = "Normal", Info = "A human child who has fallen down into the undeground.", Affinity = "", Resistance = "", Retreat = "", ExtraInfo = ""},
+
         new Characters {Id = 2, Stage = "Pacifist", Name = "sans.", HP = 1, AT = 1, DF = 1, Type = "Psychic", Info = "The easiest enemy. Can only deal 1 damage",  Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
         new Characters {Id = 3, Stage ="Pacifist", Name = "Papyrus", HP = 680, AT = 20, DF = 20, EXP = 3, Type = "", Info = "He likes to say: 'Nyeh heh heh!'", Weak = "Flirting", Resistance = "", ExtraInfo = "Loves puzzles", Retreat = "" },
     };
