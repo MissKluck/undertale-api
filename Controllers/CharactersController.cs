@@ -20,9 +20,9 @@ public class _CharactersController : ControllerBase
 
         new Characters {Id = 4, Stage = "Genocide", Name = "Chara", HP = "??", LV = "??", AT = "??", DF = "??", EXP = "??", Type = "??", Info = "The first fallen human.", Abilities = {"SOUL control", "Destroy the world", "SPARE", "FIGHT"}, Affinity = "The destruction of the world", Resistance = "", Retreat = "", ExtraInfo = "DETERMINATION."},
 
-        new Characters {Id = 5, Stage = "Pacifist", Name = "sans.", HP = "1", AT = "1", DF = "1", Type = "Psychic", Info = "The easiest enemy. Can only deal 1 damage",  Weak = "", Resistance = "", ExtraInfo = "", Retreat = "" },
+        new Characters {Id = 5, Stage = "Pacifist", Name = "sans.", HP = "1", AT = "1", DF = "1", Type = "Psychic", Info = "The easiest enemy. Can only deal 1 damage", Resistance = "", ExtraInfo = "", Retreat = "", Affinity =""},
 
-        new Characters {Id = 3, Stage ="Pacifist", Name = "Papyrus", HP = 680, AT = 20, DF = 20, EXP = 3, Type = "", Info = "He likes to say: 'Nyeh heh heh!'", Weak = "Flirting", Resistance = "", ExtraInfo = "Loves puzzles", Retreat = "" },
+        new Characters {Id = 3, Stage ="Pacifist", Name = "Papyrus", HP = "680", AT = "20", DF = "20", EXP = "3,", Type = "", Info = "He likes to say: 'Nyeh heh heh!'", Affinity = "Flirting", Resistance = "", ExtraInfo = "Loves puzzles", Retreat = "" },
     };
 
     public _CharactersController(AppDbContext context)
@@ -52,7 +52,7 @@ public class _CharactersController : ControllerBase
         }
         _context.Add(_characters);
         _context.SaveChanges();
-        return CreatedAtAction(nameof(Post), new { id = _characters.Id, stage = _characters.Stage, name = _characters.Name, hp = _characters.HP, type = _characters.Type, info = _characters.Info, weak = _characters.Weak, resistance = _characters.Resistance, extrainfo = _characters.ExtraInfo, retreat = _characters.Retreat }, _characters);
+        return CreatedAtAction(nameof(Post), new { id = _characters.Id, stage = _characters.Stage, name = _characters.Name, hp = _characters.HP, type = _characters.Type, info = _characters.Info, affinity = _characters.Affinity, resistance = _characters.Resistance, extrainfo = _characters.ExtraInfo, retreat = _characters.Retreat }, _characters);
     }
 
 }
