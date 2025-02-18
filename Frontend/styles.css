@@ -8,16 +8,17 @@ body {
 }
 
 .card {
-  width: 100px;
-  background: #ffcc00;
+  width: 300px;
+  background: #9d00ff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 15px;
   text-align: center;
-  border: 2px solid #333;
+  border: 0.5px solid #333;
 }
 
 .card-header {
+  background: #ce83fc;
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -27,11 +28,17 @@ body {
 .card-image {
   width: 100%;
   border-radius: 10px;
-  border: 2px solid #333;
+  border: 2px solid #9d00ff;
+}
+
+.card-about {
+  background: #ce83fc;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
 .card-info {
-  background: white;
+  background: #ce83fc;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
