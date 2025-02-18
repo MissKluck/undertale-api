@@ -12,6 +12,7 @@ Stages are:
 
 Need to to do:
 
+- create a card to see how it looks
 - create/add all the monsters to a json document
 - create the randomness logic for when the card switches
 - set up for logic to run through the card
