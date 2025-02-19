@@ -7,7 +7,7 @@ public class CardController : ControllerBase
     {
         var card = new CardModel
         {
-            Name = "Sans",
+            Name = "sans",
             Stage = "Pacifist",
             HP = 1,
             AT = 1,
