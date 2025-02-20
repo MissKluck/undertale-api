@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function fetchCard(name) {
-  fetch(`https://localhost:5095/api/cards/${sans}`)
+  fetch(`https://localhost:5289/api/cards/${sans}`)
     .then((response) => response.json())
     .then((data) => generateCard(data))
     .catch((error) => console.error('Error fetching card:', error));
