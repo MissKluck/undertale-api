@@ -26,6 +26,7 @@ public class Program
         });
         builder.Services.AddSession();
 
+        //Add cors so that the frontend and backend servers communicate with each other despite being on different localhosts
         builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll", builder =>
