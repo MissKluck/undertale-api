@@ -21,10 +21,49 @@ public class Program
             app.MapOpenApi();
         }
 
+        builder.Services.AddSwaggerGen();
+
+        builder.Services.AddCors(options =>
+               {
+                   options.AddPolicy("AllowAll", builder =>
+                   {
+                       builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithExposedHeaders("Count-Disposition");
+                   });
+               });
+
+        builder.Services.AddCors(options =>
+                {
+                    options.AddDefaultPolicy(builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                    });
+                });
+
+        var app = builder.Build();
+
+        // makes sure we use swagger
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSession();
+            app.UseSwagger();
+            app.UseSwaggerUI();
+
+        }
+
+        app.UseCors(policy =>
+        policy.WithOrigins("http://localhost:5500") // Allow requests from the frontend
+          .AllowAnyHeader()
+          .AllowAnyMethod());
+
+        app.UseDefaultFiles();
+
+        app.UseCors("AllowAll");
+
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 
