@@ -26,6 +26,16 @@ body {
   font-size: 18px;
 }
 
+.badge {
+  background-color: goldenrod;
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px 1px;
+  font-size: 12px;
+  border: black 1px;
+}
+
 .card-image {
   background: #ce83fc;
   border: 7px solid goldenrod;
@@ -43,9 +53,8 @@ img {
 }
 
 .card-about {
-  background: #ce83fc;
-  display: flex;
-  justify-content: space-around;
+  background: rgb(251, 202, 77);
+  border: 1px goldenrod;
   font-size: 12px;
 }
 
