@@ -41,7 +41,7 @@ body {
 }
 
 .header-text {
-  min-width: 80%;
+  min-width: 75%;
   display: flex;
   justify-content: space-between;
 }
@@ -55,6 +55,11 @@ body {
   height: 200px;
   box-shadow: 5px 5px 5px black;
   margin-bottom: 10px;
+}
+
+.icon {
+  max-width: 18px;
+  max-height: 18px;
 }
 
 img {
