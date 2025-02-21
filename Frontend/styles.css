@@ -21,9 +21,12 @@ body {
 .card-header {
   background: #ce83fc;
   display: flex;
-  justify-content: space-between;
   font-weight: bold;
   font-size: 18px;
+}
+
+.badge-style {
+  max-width: 60px;
 }
 
 .badge {
@@ -34,6 +37,14 @@ body {
   border-radius: 5px 1px;
   font-size: 12px;
   border: black 1px;
+  margin-right: 5px;
+}
+
+.header-text {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5px;
 }
 
 .card-image {
