@@ -10,8 +10,8 @@ public class Characters
     public string? EXP { get; set; }
     public required string Type { get; set; }
     public required string Info { get; set; }
-    public List<string> Abilities { get; set; }
-    public List<string> Attacks { get; set; }
+    public List<string>? Abilities { get; set; }
+    public List<string>? Attacks { get; set; }
     public required string Affinity { get; set; }
     public string? Resistance { get; set; }
     public string? Retreat { get; set; }
