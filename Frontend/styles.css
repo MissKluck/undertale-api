@@ -53,13 +53,9 @@ body {
 }
 
 .card-image {
-  background: rgb(206, 131, 252);
-  background: linear-gradient(
-    0deg,
-    rgba(206, 131, 252, 1) 0%,
-    rgba(157, 0, 255, 1) 50%,
-    rgba(206, 131, 252, 1) 100%
-  );
+  background-image: url('/images/Ruins_location_intro.webp');
+  background-position: center;
+  background-size: 400px;
   border: 7px solid goldenrod;
   display: flex;
   align-items: center;
