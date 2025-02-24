@@ -9,7 +9,13 @@ body {
 
 .card {
   width: 350px;
-  background-image: linear-gradient(100deg, #ce83fc 0%, 100deg #9d00ff 100%);
+  background: rgb(206, 131, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(206, 131, 252, 1) 0%,
+    rgba(157, 0, 255, 1) 50%,
+    rgba(206, 131, 252, 1) 100%
+  );
   border-radius: 10px;
   text-align: center;
   background-clip: padding-box;
@@ -47,7 +53,13 @@ body {
 }
 
 .card-image {
-  background: #ce83fc;
+  background: rgb(206, 131, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(206, 131, 252, 1) 0%,
+    rgba(157, 0, 255, 1) 50%,
+    rgba(206, 131, 252, 1) 100%
+  );
   border: 7px solid goldenrod;
   display: flex;
   align-items: center;
@@ -74,7 +86,11 @@ img {
 }
 
 .card-info {
-  background: #ce83fc;
+  background: rgb(206, 131, 252);
+  background: linear-gradient(
+    rgba(157, 0, 255, 1) 0%,
+    rgba(206, 131, 252, 1) 100%
+  );
   padding: 10px;
   font-size: 14px;
 }
