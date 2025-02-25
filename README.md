@@ -13,6 +13,8 @@ Stages are:
 Need to to do:
 
 - create a card to see how it looks
+- make logic for the card so it switches between which abilities and attacks it displays
+- connect it to the backend so it can be changed what type of card is displayed - js and c#?
 - create/add all the monsters to a json document
 - create the randomness logic for when the card switches
 - set up for logic to run through the card
