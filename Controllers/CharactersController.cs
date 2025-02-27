@@ -52,7 +52,7 @@ public class _CharactersController : ControllerBase
         }
         _context.Add(_characters);
         _context.SaveChanges();
-        return CreatedAtAction(nameof(Post), new { id = _characters.Id, stage = _characters.Stage, name = _characters.Name, hp = _characters.HP, type = _characters.Type, info = _characters.Info, affinity = _characters.Affinity, resistance = _characters.Resistance, extrainfo = _characters.ExtraInfo, retreat = _characters.Retreat }, _characters);
+        return CreatedAtAction(nameof(Post), new { id = _characters.Id, stage = _characters.Stage, name = _characters.Name, hp = _characters.HP, at = _characters.AT, df = _characters.DF, type = _characters.Type, info = _characters.Info, affinities = _characters.Affinities, abilities = _characters.Abilities, extrainfo = _characters.ExtraInfo }, _characters);
     }
 
 }
