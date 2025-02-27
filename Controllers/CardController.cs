@@ -22,8 +22,8 @@ public class CardController : ControllerBase
             DF = 1,
             Type = "Psychic",
             ImageUrl = "file:///Users/Sigrid/Pictures/Sans_overworld.webp",
-            Abilities = new List<string> { "Dodge", "Gaster Blaster" },
-            Affinities = new List<string> { "Bad puns", "Annoying Papyrus", "Not working" },
+            Abilities = new List<string> { "Dodge", "Shortcuts", "Telekinesis" },
+            Affinities = new List<string> { "Bad puns", "Annoying Papyrus", "Pranks", "Not working", "Hot 'dogs'", "Sleeping" },
             Info = "The easiest enemy. Can only deal 1 damage",
             ExtraInfo = "heh"
         };
