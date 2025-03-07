@@ -35,3 +35,5 @@ Need to to do:
 have different categories for different cards, fex three categories, where you have the same styling
 
 ![excalidraw image of how the cards are imagined](images/image.png)
+
+if possible in the far, far future, i would like to add a music player and connect it to each monsters theme - perhaps do it with sans first, along with his glitching megalovania can play, then see if i can connect it to the rest
